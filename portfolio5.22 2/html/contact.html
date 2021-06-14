@@ -1,0 +1,248 @@
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>contact</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+            <div class="header">
+        <div class="title">contact</div>
+    <ul class="sam">
+        <li class="som"><a href="../html/sample.html">home</a></li>
+        <li class="som"><a href="../html/work3.html">work</a></li>
+<!--        <li class="som"><a href="../html/about.html">about</a></li>-->
+        <li class="som"><a href="../html/contact.html">contact</a></li>
+        </ul>
+    </div>
+
+
+   <div class="Form-title"><h3>お問い合わせフォーム</h3></div>
+    <div class="Form">
+        <div class="Form-Item">
+          <p class="Form-Item-Label">
+            <span class="Form-Item-Label-Required">必須</span>会社名
+          </p>
+          <input type="text" class="Form-Item-Input" placeholder="例）株式会社令和">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>氏名</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）山田太郎">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required">必須</span>メールアドレス</p>
+          <input type="email" class="Form-Item-Input" placeholder="例）example@gmail.com">
+        </div>
+         <div class="Form-Item">
+          <p class="Form-Item-Label"><span class="Form-Item-Label-Required-">任意</span>電話番号</p>
+          <input type="text" class="Form-Item-Input" placeholder="例）000-0000-0000">
+        </div>
+        <div class="Form-Item">
+          <p class="Form-Item-Label isMsg"><span class="Form-Item-Label-Required">必須</span>お問い合わせ内容</p>
+           <textarea id="message" name="your-message"> </textarea>
+        </div>
+        <div class="Form-sub">
+             <input type="submit" class="Form-Btn" value="送信する">
+        </div>
+
+      </div>
+    <footer style="position:absolute;top:1000px;background-color:black;width:100vw;">
+        <p>footer</p>
+      </footer>
+</body>
+
+<style>
+  body {
+         display:inline;
+            margin:0;
+            width:100vw;
+        }
+        .header {
+            position:absolute;top:0;
+/*            background-color:aqua;*/
+            width:100vw;
+            height:10vh;
+        }
+
+        .sam {
+             padding-top:8px;
+            text-align: right;
+            margin-left:4vw;
+             padding-right:30px;
+        }
+        .som {
+
+            margin-left:3vw;
+            display: inline;
+        }
+        .title {
+            position:absolute;top:10px;
+            margin-left:40px;
+            font-size:40px;
+        }
+
+
+
+
+    .Form-title {
+        margin-top:20vh;
+        margin-left:44px;
+    }
+.Form {
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 720px;
+}
+@media screen and (max-width: 480px) {
+  .Form {
+    margin-top: 1vh;
+  }
+}
+.Form-Item {
+  border-top: 1px solid #ddd;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-wrap: wrap;
+  }
+}
+/* .Form-Item:nth-child(5) {
+  border-bottom: 1px solid #ddd;
+} */
+.Form-Item-Label {
+  width: 100%;
+  max-width: 248px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 480px) {
+  .Form-Item-Label {
+    max-width: inherit;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+.Form-Item-Label.isMsg {
+  margin-top: 8px;
+  margin-bottom: auto;
+}
+/*
+@media screen and (max-width: 480px) {
+   .Form-Item-Label.isMsg {
+    margin-top: 0;
+  }
+}
+*/
+.Form-Item-Label-Required {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #ff6347;
+  color: #fff;
+  font-size: 14px;
+}
+.Form-Item-Label-Required- {
+  border-radius: 6px;
+  margin-right: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 48px;
+  display: inline-block;
+  text-align: center;
+  background: #5bc8ac;
+  color: #fff;
+  font-size: 14px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  .Form-Item-Label-Required {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 32px;
+    font-size: 10px;
+  }
+}
+
+
+
+.Form-Item-Input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 40px;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 48px;
+  flex: 1;
+  width: 100%;
+  max-width: 410px;
+  background: #eaedf2;
+  font-size: 18px;
+}
+
+
+
+textarea {
+    margin-left:5vw;
+    width: 300px;
+    height:7rem;
+}
+
+
+    .Form-sub {
+       width:100%;
+        text-align:center;
+    }
+    .Form-Btn {
+        height:6vh;
+        width:20vh;
+
+    }
+
+/*
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+}
+*/
+
+/*
+.button {
+    margin-top:20px;
+    font-size: 12px;
+    background: #0bd;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+}
+
+.button-hover {
+    background-color: #000;
+}
+*/
+
+
+
+
+
+
+</style>
