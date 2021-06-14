@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>sample</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <div class="main2">
+           <div class="header">
+        <div class="title">work</div>
+        <div class="subtitle">〜Design〜</div>
+    <ul class="sam">
+        <li class="som"><a href="../html/sample.html">home</a></li>
+        <li class="som"><a href="../html/work3.html">work</a></li>
+<!--        <li class="som"><a href="../html/about.html">about</a></li>-->
+        <li class="som"><a href="../html/contact.html">contact</a></li>
+        </ul>
+    </div>
+        
+    <div class="work">
+      <script>
+        $(function(){
+      $('#subImg1 img').on('click',function(){
+        img = $(this).attr('src');
+        $('#subImg1 li').removeClass('current1');
+        $(this).parent().addClass('current1');
+        $('#mainImg1 img').fadeOut(50, function() {
+            $('#mainImg1 img').attr('src', img).on('load', function() {
+                 $(this).fadeIn();
+            })
+       })
+      });
+      });
+      </script>
+
+    <div id="mainImg1">
+            <h3>旅館サイト</h3>
+    <img class="mainImgs" src="../img/sampleimg/top.png"z>
+    </div>
+        
+<div class="subImg">
+    <ul id="subImg1">
+    <li class="current1"><img class="subImgs" src="../img/sampleimg/top.png"></li>
+    <li><img class="subImgs" src="../img/sampleimg/plan.png"></li>
+    <li><img class="subImgs" src="../img/sampleimg/gallery.png"></li>
+    <li><img class="subImgs" src="../img/sampleimg/contactus.png"></li>
+    </ul>
+</div>
+<table style="position:absolute;top:280px;margin-left:50vw;">
+  <tr>
+    <th style=" padding-right:20px;padding-left:10px;">期間</th>
+    <td  style="padding-left:20px;">1ヶ月</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:10px;">プロジェクト内容</th>
+    <td  style="padding-left:20px;">旅館サイトのリデザイン</td>
+  </tr>
+      <tr>
+    <th style=" padding-right:20px;padding-left:10px;">どのような点を工夫したか</th>
+    <td  style="padding-left:20px;">html/cssの学習をし、一番最初に作成したサイトです。工夫した点はシンプルかつシック風に作成し、和風旅館らしさを意識しました。</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:10px;">開発環境</th>
+    <td  style="padding-left:20px;">html/css  </td>
+  </tr>
+      <tr>
+    <th style=" padding-right:20px;padding-left:10px;">github</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">元のサイトのリンク</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+</table>
+
+    </div>
+  
+
+    <div class="work">
+        
+      <script>
+        $(function(){
+      $('#subImg2 img').on('click',function(){
+        img = $(this).attr('src');
+        $('#subImg2 li').removeClass('current1');
+        $(this).parent().addClass('current1');
+        $('#mainImg2 img').fadeOut(50, function() {
+            $('#mainImg2 img').attr('src', img).on('load', function() {
+                 $(this).fadeIn();
+            })
+       })
+      });
+      });
+      </script>
+
+
+        <div id="mainImg2">
+                <h3>図書館サイト</h3>
+        <img class="mainImgs" src="../img/hagiimg/top.png">
+        </div>
+            
+    <div class="subImg">
+        <ul id="subImg2">
+        <li class="current"><img class="subImgs" src="../img/hagiimg/top.png"></li>
+        <li><img class="subImgs" src="../img/hagiimg/mobletop.png"></li>
+        <li><img class="subImgs" src="../img/left.jpg"></li>
+        <li><img class="subImgs" src="../img/right.jpg"></li>
+        </ul>
+    </div>
+   
+        <table style="position:absolute;top:1100px;margin-left:50vw;">
+<!--
+  <tr>
+    <th>期間</th>
+    <th>プロジェクト名・内容</th>
+    <th>担当内容</th>
+    <th>使用言語</th>
+  </tr>
+-->
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">期間</th>
+    <td  style="padding-left:20px;">1ヶ月</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">プロジェクト内容</th>
+    <td  style="padding-left:20px;">図書館サイトのリデザイン</td>
+  </tr>
+      <tr>
+    <th style=" padding-right:20px;padding-left:20px;">どのような点を工夫したか</th>
+    <td  style="padding-left:20px;">元のサイトではどこに何があるのかわからず、どう触ればいいのかわかりませんでした。そのためできる限り少ない情報でわかりやすく、見やすいサイトにしようと心がけました。</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">開発環境</th>
+    <td  style="padding-left:20px;">html/css bootstrap jquery </td>
+  </tr>
+              <tr>
+    <th style=" padding-right:20px;padding-left:20px;">github</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">元のサイトのリンク</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+</table>
+
+
+
+
+        </div>
+
+
+        <div class="work">
+        
+          <script>
+            $(function(){
+        $('#subImg img').on('click',function(){
+            //mainに切り替えるimgのsrc取得
+            img = $(this).attr('src');
+            //currentクラス付け替え
+            $('#subImg li').removeClass('current');
+            $(this).parent().addClass('current');
+            //fadeOutできたらsrc変更してfadeIn
+            $('#mainImg img').fadeOut(50, function() {
+                $('#mainImg img').attr('src', img).on('load', function() {
+                     $(this).fadeIn();
+                })
+           })
+        });
+    });
+            </script>
+
+
+
+
+            <div id="mainImg">
+                    <h3>公園サイト</h3>
+            <img class="mainImgs" src="../img/left.jpg">
+            </div>
+                
+        <div class="subImg">
+            <ul id="subImg">
+            <li class="current"><img class="subImgs" src="../img/left.jpg"></li>
+            <li><img class="subImgs" src="../img/right.jpg"></li>
+            <li><img class="subImgs" src="../img/left.jpg"></li>
+            <li><img class="subImgs" src="../img/right.jpg"></li>
+            </ul>
+        </div>
+                <table style="position:absolute;top:1850px;margin-left:50vw;">
+<!--
+  <tr>
+    <th>期間</th>
+    <th>プロジェクト名・内容</th>
+    <th>担当内容</th>
+    <th>使用言語</th>
+  </tr>
+-->
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">期間</th>
+    <td  style="padding-left:20px;">2ヶ月</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">プロジェクト内容</th>
+    <td  style="padding-left:20px;">公園サイトのリデザイン</td>
+  </tr>
+      <tr>
+    <th style=" padding-right:20px;padding-left:20px;">どのような点を工夫したか</th>
+    <td  style="padding-left:20px;">javascriptを使いパララックスを利用することを意識しました。季節ごとに色を変え、スクロールする度にワクワクさせるようなサイトにしました。またAPIを利用し、公園付近の天気を表示させました。</td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">開発環境</th>
+    <td  style="padding-left:20px;">html/css,jquery,bootstorap </td>
+  </tr>
+                      <tr>
+    <th style=" padding-right:20px;padding-left:20px;">github</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+  <tr>
+    <th style=" padding-right:20px;padding-left:20px;">元のサイトのリンク</th>
+    <td  style="padding-left:20px;">リンク </td>
+  </tr>
+</table>
+            
+            </div>
+
+ 
+    </div>
+
+<footer style="position:absolute;top:2500px;background-color:black;width:100vw;">
+  <p>footer</p>
+</footer>
+
+
+</body>
+
+
+
+
+</html>
+
+
+    <style>
+        body {
+         display:inline;
+            margin:0;
+            width:100vw;
+            background-color:#d3d3d3;
+        }
+        .header {
+            position:absolute;top:0;
+/*            background-color:aqua;*/
+            width:100vw;
+            height:10vh;
+        }
+
+        .sam {
+             padding-top:8px;
+            text-align: right;
+            margin-left:4vw;
+             padding-right:30px;
+        }
+        .som {
+
+            margin-left:3vw;
+            display: inline;
+        }
+        .title {
+            position:absolute;top:10px;
+            margin-left:40px;
+            font-size:40px;
+        }
+        .subtitle {
+            position:absolute;top:30px;
+            margin-left:200px;
+            font-size:20px;
+        }
+        .main2 {
+        height: 1700px;
+        border-top: 3px solid white;
+        background-color: #87CEEB;
+        background-size:cover;
+        background-image:url(../img/right.jpg);
+        background-color:rgba(255,255,255,0.8);
+        background-blend-mode:lighten;
+    }
+
+    .work {
+        padding-top:150px;
+    }
+
+    .mainImgs {
+        padding-top:100px;
+            height:300px;
+            width:448px;
+        }
+        .subImgs {
+            height:100px;
+            width:120px;
+        }
+        ul {
+             list-style: none;
+        }
+
+        #mainImg{
+            padding-left:40px;
+        }
+        #subImg{
+            display: flex;
+            width:430px;
+           justify-content: space-between;
+        }
+        #subImg li{
+            height:100px;
+            border: 1px solid white;
+        }
+
+        #mainImg h3 {
+            font-size:20px;
+            border-bottom: solid 1px black;
+            width:80vw;
+        }
+
+
+
+
+        #mainImg1{
+            padding-left:40px;
+        }
+        #subImg1{
+            display: flex;
+            width:430px;
+           justify-content: space-between;
+        }
+        #subImg1 li{
+            height:100px;
+            border: 1px solid white;
+        }
+
+        #mainImg1 h3 {
+            font-size:20px;
+            border-bottom: solid 1px black;
+            width:80vw;
+        }
+
+
+
+        #mainImg2{
+            padding-left:40px;
+        }
+        #subImg2{
+            display: flex;
+            width:430px;
+           justify-content: space-between;
+        }
+        #subImg2 li{
+            height:100px;
+            border: 1px solid white;
+        }
+
+        #mainImg2 h3 {
+            font-size:20px;
+            border-bottom: solid 1px black;
+            width:80vw;
+        }
+
+
+
+
+
+     table{
+  border-collapse: collapse;
+  border-spacing: 0;
+/*  width: 100%;*/
+}
+
+table tr{
+    border-bottom: solid 1px black;
+     border-top: solid 1px black;
+/*     border-left: solid 1px black;*/
+   
+  border-left: solid 1px #eee;
+  cursor: pointer;
+}
+
+
+
+table td{
+    border-left: solid 1px black;
+      border-right: solid 1px black;
+  text-align: left;
+  width: 25vw;
+  padding: 15px 0;
+}
+
+        table th{
+                 border-left: solid 1px black;
+            text-align:left;
+            width: 10vw;
+  padding: 15px 0;
+        }
+
+        /* 
+
+
+        .work {
+            margin-top:20vh;
+        }
+        .subImg {
+           padding-top:40vh;
+        }
+
+ 
+        #subImg li.current{
+           border: 1px solid #14dfff;
+        } */
+
+    </style>
