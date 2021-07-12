@@ -1,0 +1,244 @@
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url(../img/back.png);
+      background-size: cover;
+    }
+  
+    .header {
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 10vh;
+    }
+  
+    .sam {
+      padding-top: 23px;
+      text-align: right;
+      margin-left: 4vw;
+      padding-right: 30px;
+    }
+  
+    .som {
+      margin-left: 3vw;
+      display: inline;
+    }
+  
+    .title {
+      position: absolute;
+      top: 10px;
+      margin-left: 40px;
+      font-size: 40px;
+    }
+  
+    .subtitle {
+      position: absolute;
+      top: 30px;
+      margin-left: 200px;
+      font-size: 20px;
+    }
+  
+  
+  
+  
+    .main2 {
+      height: auto;
+      border-top: 3px solid white;
+      background-size: cover;
+      border-top-width: 0px;
+    }
+  
+    .main2 h1 {
+      margin-left: 20vw;
+    }
+  
+    .wrapper {
+      height: 100%;
+      min-height: 100vh;
+      position: relative;
+      padding-bottom: 120px;
+    }
+  
+    footer {
+  
+      width: 100vw;
+      margin-top: 100px;
+      height: 57px;
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  
+  
+  
+  
+  
+  
+  
+    .Form-title {
+      margin-top: 30px;
+      text-align: center;
+    }
+  
+    .Form {
+      margin-top: 1vh;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 720px;
+    }
+  
+    @media screen and (max-width: 480px) {
+      .Form {
+        margin-top: 1vh;
+      }
+    }
+  
+    .Form-Item {
+      border-top: 1px solid #ddd;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+  
+    @media screen and (max-width: 450px) {
+      .Form-Item {
+        text-align: left;
+        padding-right: 14px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        flex-wrap: wrap;
+      }
+    }
+  
+    .Form-Item:nth-child(5) {
+      border-bottom: 1px solid #ddd;
+    }
+  
+    .Form-Item-Label {
+      width: 100%;
+      max-width: 120px;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  
+    @media screen and (max-width: 450px) {
+      .Form-Item-Label {
+        max-width: inherit;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+  
+      }
+    }
+  
+    .Form-Item-Label.isMsg {
+      margin-top: 8px;
+      margin-bottom: auto;
+    }
+  
+    @media screen and (max-width: 450px) {
+      .Form-Item-Label.isMsg {
+        margin-top: 0;
+      }
+    }
+  
+    .Form-Item-Label-Required {
+      border-radius: 6px;
+      margin-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 48px;
+      display: inline-block;
+      text-align: center;
+      background: #ff6347;
+      color: #fff;
+      font-size: 14px;
+    }
+  
+    .Form-Item-Label-Required- {
+      border-radius: 6px;
+      margin-right: 8px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      width: 48px;
+      display: inline-block;
+      text-align: center;
+      background: #5bc8ac;
+      color: #fff;
+      font-size: 14px;
+    }
+  
+  
+  
+  
+  
+  
+  
+    .Form-Item-Input {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-left: 40px;
+      padding-left: 1em;
+      padding-right: 1em;
+      height: 48px;
+      flex: 1;
+      width: 100%;
+      max-width: 410px;
+      background: #eaedf2;
+      font-size: 18px;
+    }
+  
+  
+  
+    textarea {
+      margin-left: 5vw;
+      width: 300px;
+      height: 7rem;
+    }
+  
+  
+    .Form-sub {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .Form-Btn {
+      height: 6vh;
+      width: 20vh;
+  
+    }
+  
+  
+    @media screen and (max-width: 450px) {
+      .title {
+        padding: 10px;
+        cursor: pointer;
+        position: absolute;
+        top: 18vh;
+        left: 58vw;
+        z-index: 2;
+      }
+  
+      .portfolio {
+        width: 30px;
+      }
+  
+      .Form-Item-Label-Required {
+        border-radius: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        width: 32px;
+        font-size: 10px;
+      }
+  
+      .Form-Item-Input {
+  
+        max-width: 250px;
+  
+      }
+  
+    }
