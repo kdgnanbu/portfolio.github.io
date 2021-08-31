@@ -1,0 +1,133 @@
+body {
+    min-height: 100%;
+    display: inline;
+    margin: 0;
+    width: 100vw;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+}
+
+.sam {
+    padding-top: 23px;
+    text-align: right;
+    margin-left: 4vw;
+    padding-right: 30px;
+}
+
+.som {
+    margin-left: 3vw;
+    display: inline;
+}
+
+.title {
+    position: absolute;
+    top: 10px;
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.subtitle {
+    position: absolute;
+    top: 70px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.main2 {
+    border-top: 0px solid white;
+    background-color: white;
+    background-size: cover;
+    background-image: url(../img/right.png);
+}
+
+.work {
+    padding-top: 150px;
+}
+
+.mainImgs {
+    padding-top: 50px;
+    height: 400px;
+    width: auto;
+    max-width: 483px;
+    text-align: center;
+}
+
+.subImgs {
+    height: 100px;
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: white;
+}
+
+table tr {
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+    border-left: solid 1px #eee;
+    cursor: pointer;
+}
+
+table td {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    text-align: left;
+    width: 90vw;
+    padding: 15px 0;
+    padding-left: 20px;
+    padding-right: 10px;
+    word-break: break-all;
+}
+
+table th {
+    border-left: solid 1px black;
+    text-align: left;
+    width: 10vw;
+    padding: 15px 0;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    height: 60px;
+    background-color: black;
+}
+
+.swiper-container{
+    width:auto;
+    max-width:600px;
+    padding-top:20px;
+    height:auto;
+    max-height:700px;
+}
+
+.swiper-wrapper{
+    height:400px;
+}
+
+.col-sm-5 {
+    width:800px;
+    max-width:1200px;
+    padding-top:20px;
+}
+
+.img1 {
+    height:400px;
+    padding-left:20px;
+    padding-right:120px;
+    background-size:cover;
+
+}
